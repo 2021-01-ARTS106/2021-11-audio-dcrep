@@ -6,12 +6,11 @@ AudioMixerController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ambience
+  m_Name: 3D Audio
   m_OutputGroup: {fileID: 24300002, guid: 43fbed9872fab27449dea0381c12b21c, type: 2}
   m_MasterGroup: {fileID: 24300002}
   m_Snapshots:
   - {fileID: 24500006}
-  - {fileID: 259350963768827239}
   m_StartSnapshot: {fileID: 24500006}
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
@@ -19,7 +18,7 @@ AudioMixerController:
   m_ExposedParameters: []
   m_AudioMixerGroupViews:
   - guids:
-    - 18803d48b64cd1248b093ae651d5304e
+    - 23ba51afa95289743bd630ccc83ba83b
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -31,10 +30,10 @@ AudioMixerGroupController:
   m_PrefabAsset: {fileID: 0}
   m_Name: Master
   m_AudioMixer: {fileID: 24100000}
-  m_GroupID: 18803d48b64cd1248b093ae651d5304e
+  m_GroupID: 23ba51afa95289743bd630ccc83ba83b
   m_Children: []
-  m_Volume: d0e15587db77d5f46ab89cd193a7d7e5
-  m_Pitch: bd10cbbfc62e31e4abe24f09aa8b04c0
+  m_Volume: 813ab9ceb31322e4ba9fad49920b85f7
+  m_Pitch: 90e22febf0991e54b8824347ca9d7a35
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 24400004}
@@ -49,9 +48,9 @@ AudioMixerEffectController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_EffectID: 292bc685687114841815f133444aa166
+  m_EffectID: c6f78761366340540b717dab0ee54c1e
   m_EffectName: Attenuation
-  m_MixLevel: a0e67efb689687840ba43b11b20fb2cb
+  m_MixLevel: 3380002072867a74f9d5850d0a035e99
   m_Parameters: []
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
@@ -62,21 +61,9 @@ AudioMixerSnapshotController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AmbIdle
+  m_Name: Snapshot
   m_AudioMixer: {fileID: 24100000}
-  m_SnapshotID: deab1f8a2ea253f4e878ddec1cc90828
+  m_SnapshotID: 73639d95ea76b964d82775e5c4714bcf
   m_FloatValues:
-    d0e15587db77d5f46ab89cd193a7d7e5: -80
-  m_TransitionOverrides: {}
---- !u!245 &259350963768827239
-AudioMixerSnapshotController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: AmbIn
-  m_AudioMixer: {fileID: 24100000}
-  m_SnapshotID: 549d21cf986cd3e4c8ab4b1faadb5f09
-  m_FloatValues:
-    d0e15587db77d5f46ab89cd193a7d7e5: 0.13552761
+    813ab9ceb31322e4ba9fad49920b85f7: 9.757735
   m_TransitionOverrides: {}
